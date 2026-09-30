@@ -1,0 +1,40 @@
+{
+  "name": "gexmonitor-connect",
+  "version": "0.2.0",
+  "description": "One-command GEX Monitor Skill + Remote MCP installer for AI clients",
+  "bin": {
+    "gexmonitor-connect": "./bin/gexmonitor-connect.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gexmonitor-pixel/gexmonitor-connect.git"
+  },
+  "keywords": [
+    "gexmonitor",
+    "mcp",
+    "skills",
+    "model-context-protocol",
+    "claude-code",
+    "codex",
+    "cursor",
+    "opencode",
+    "openclaw",
+    "memoh"
+  ],
+  "author": "GEX Monitor",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "node bin/gexmonitor-connect.js"
+  }
+}

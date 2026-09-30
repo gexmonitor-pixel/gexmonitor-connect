@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+*.bak*
+.tmp*
+coverage/
+skills/
+skills-lock.json
+.agents/
+._*
