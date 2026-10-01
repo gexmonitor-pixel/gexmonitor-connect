@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "One-command GEX Monitor Skill + Remote MCP installer for AI clients",
   "bin": {
-    "gexmonitor-connect": "./bin/gexmonitor-connect.js"
+    "gexmonitor-connect": "bin/gexmonitor-connect.js"
   },
   "main": "./src/index.js",
   "files": [
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gexmonitor-pixel/gexmonitor-connect.git"
+    "url": "git+https://github.com/gexmonitor-pixel/gexmonitor-connect.git"
   },
   "keywords": [
     "gexmonitor",
